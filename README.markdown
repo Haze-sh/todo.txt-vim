@@ -1,4 +1,4 @@
-**This repository is only a mirror, all developpment happens at [gitlab](https://gitlab.com/dbeniamine/todo.txt-vim)**
+**This repo is for better color support than the original plugin**
 
 # Todo.txt-vim
 
