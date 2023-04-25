@@ -51,7 +51,7 @@ highlight  default  link  TodoPriorityB  statement
 highlight  default  link  TodoPriorityC  type
 highlight  default  link  TodoDate       PreProc
 highlight  default  link  TodoProject    Special
-highlight  default  link  TodoContext    Special
+highlight  default  link  TodoContext    String
 highlight  default  link  TodoDueToday   Todo
 
 function! todo#GetDateRegexForPastDates(...)
