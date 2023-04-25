@@ -44,13 +44,13 @@ let s:todayDate=strftime('%Y\-%m\-%d')
 execute 'syntax match TodoDueToday    /\v\c<due:' . s:todayDate . '>/ contains=NONE'
 
 " Other priority colours might be defined by the user
-highlight  default  link  TodoKey        Special
+highlight  default  link  TodoKey        Comment
 highlight  default  link  TodoDone       Comment
-highlight  default  link  TodoPriorityA  Identifier
-highlight  default  link  TodoPriorityB  statement
+highlight  default  link  TodoPriorityA  statement
+highlight  default  link  TodoPriorityB  Float
 highlight  default  link  TodoPriorityC  type
-highlight  default  link  TodoDate       PreProc
-highlight  default  link  TodoProject    Special
+highlight  default  link  TodoDate       Special
+highlight  default  link  TodoProject    Include
 highlight  default  link  TodoContext    String
 highlight  default  link  TodoDueToday   Todo
 
