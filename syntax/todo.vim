@@ -47,9 +47,9 @@ execute 'syntax match TodoDueToday    /\v\c<due:' . s:todayDate . '>/ contains=N
 highlight  default  link  TodoKey        Comment
 highlight  default  link  TodoDone       Comment
 highlight  default  link  TodoPriorityA  statement
-highlight  default  link  TodoPriorityB  Float
+highlight  default  link  TodoPriorityB  keyword
 highlight  default  link  TodoPriorityC  type
-highlight  default  link  TodoDate       Special
+highlight  default  link  TodoDate        Todo
 highlight  default  link  TodoProject    Include
 highlight  default  link  TodoContext    String
 highlight  default  link  TodoDueToday   Todo
